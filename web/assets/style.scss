@@ -1,0 +1,90 @@
+
+.input{
+    background-color: rgb(240, 240, 240)  !important;
+}
+.btn-dark, .btn-outline-dark{
+    border-radius: 50px !important;
+    width: 100%;
+}
+.tabs {
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 16px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    svg {
+      font-size: 22px !important;
+      padding-right: 2.5rem;
+    }
+  }
+
+  .Location, .Task {
+    font-size: 16px;
+    font-weight: 600;
+    .add-btn {
+      cursor: pointer;
+      display: flex;
+      align-items: baseline;
+      // margin-bottom: 2rem;
+      svg {
+        font-size: 13px;
+        padding-right: 5px;
+      }
+    }
+    .section {
+      margin-top: 2rem;
+      .section-content {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        .icon {
+          margin-left: 0.5rem;
+          margin-right: 1.5rem;
+          padding-top: 0.5rem;
+        }
+        div {
+          font-size: 15px;
+          color: darkgray;
+          div {
+            color: gray;
+          }
+          span {
+            color: lightgray;
+            font-weight: 400;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .modal-header{
+    border: none;
+  }
+  .modal-body{
+    .modal-content{
+        border: none !important;
+        input, .dropdown {
+            border: none !important;
+            border-bottom: 1px solid lightgray !important;
+            font-size: 12px !important;
+            border-radius: 0 !important;
+            padding: 1rem 0;
+        }
+        input{
+            padding: 1rem;
+
+        }
+    }
+  }
+  .modal-footer{
+    justify-content: center !important;
+    border: none !important;
+    div{
+        width: 60%;
+    }
+  }
+  .mr-1{
+    margin-right: 0.75rem !important;
+  }
